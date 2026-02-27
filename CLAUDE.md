@@ -20,6 +20,10 @@ UI-Developer stores form-level design conversations and decisions in a persisten
 | **Data Access** | Persistence of form records and conversations | — |
 | **Integration** | Hooks into other repos' UI layers | Service |
 
+### Dependencies
+
+- **basekit** — shared base classes (database, config, UI) from `../../basekit/`
+
 ### Key Design Decisions
 
 - Cross-project by nature — must not depend on any single project's code
